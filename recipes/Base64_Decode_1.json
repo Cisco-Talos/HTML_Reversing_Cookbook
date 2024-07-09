@@ -1,0 +1,9 @@
+// "name": "Base64 Decoding 1"
+// "description": "This is a recipe for base64 decoding of strings."
+// "details": "This recipe removes all non-alphabet characters from the input string before decoding."
+// "chef": "Omid Mirzaei"
+
+[
+  { "op": "From Base64",
+    "args": ["A-Za-z0-9+/=", true, false] }
+]

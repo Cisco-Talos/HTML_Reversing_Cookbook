@@ -1,0 +1,11 @@
+// "name": "Base64 Decoding and HTML Entity to String Conversion"
+// "description": "This is a recipe that applies the follow operations to a string consecutively: 1) base64 decoding, and 2) HTML entity to string conversion."
+// "details": "This recipe removes all non-alphabet characters from the input string before decoding."
+// "chef": "Omid Mirzaei"
+
+[
+  { "op": "From Base64",
+    "args": ["A-Za-z0-9+/=", true, false] },
+  { "op": "From HTML Entity",
+    "args": [] }
+]

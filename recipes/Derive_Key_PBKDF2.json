@@ -1,0 +1,10 @@
+// "name": "PBKDF2 Key Derivation"
+// "description": "This is a recipe for deriving a key from inputs via the PBKDF2 algorithm."
+// "details": "The key size, number of iterations, hashing function, and salt may need to be changed."
+// "chef": "Omid Mirzaei"
+
+[
+  { "op": "Derive PBKDF2 key",
+    "args": [{ "option": "Hex", "string": "3864623164386238383230653135616431666661646530633835393031613561" }, 256, 999, "SHA512", { "option": "Hex", "string": "658fe7489f21cbe0c2b341fd6830cfbb" }],
+    "disabled": true }
+]

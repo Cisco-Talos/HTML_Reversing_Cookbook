@@ -1,0 +1,11 @@
+// "name": "Base64 Decoding and AES CBC Decryption"
+// "description": "This is a recipe that applies the follow operations to a string consecutively: 1) base64 decoding, and 2) AES CBC decryption of strings."
+// "details": "This recipe removes all non-alphabet characters from the input string before decoding. Also, the values of key and Initialization Vector (IV) may need to be changed."
+// "chef": "Omid Mirzaei"
+
+[
+  { "op": "From Base64",
+    "args": ["A-Za-z0-9+/=", true, false] },
+  { "op": "AES Decrypt",
+    "args": [{ "option": "Hex", "string": "df76d484435206aee8d28199c4be9cb60488744cd3146e5d0a507f298ba5c588" }, { "option": "Hex", "string": "7fad7e0a7dcca71800c2dc29418a16ee" }, "CBC", "Raw", "Raw", { "option": "Hex", "string": "" }, { "option": "Hex", "string": "" }] }
+]

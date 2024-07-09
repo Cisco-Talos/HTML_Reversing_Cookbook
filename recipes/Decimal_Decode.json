@@ -1,0 +1,9 @@
+// "name": "Decimal Decoding"
+// "description": "This is a recipe for converting an integer array to string."
+// "details": "The delimiter is space and may need to be changed."
+// "chef": "Omid Mirzaei"
+
+[
+  { "op": "From Decimal",
+    "args": ["Space", false] }
+]

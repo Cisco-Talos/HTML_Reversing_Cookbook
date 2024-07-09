@@ -1,0 +1,8 @@
+// "name": "Percent Decoding"
+// "description": "This is a recipe for converting URI/URL percent-encoded characters to their equivalent characters."
+// "chef": "Omid Mirzaei"
+
+[
+  { "op": "URL Decode",
+    "args": [] }
+]
