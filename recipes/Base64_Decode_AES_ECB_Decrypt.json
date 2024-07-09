@@ -1,5 +1,5 @@
 // "name": "Base64 Decoding and AES ECB Decryption"
-// "description": "This is a recipe that applies the follow operations to a string consecutively: 1) base64 decoding, and 2) AES ECB decryption of strings."
+// "description": "This is a recipe that applies the following operations to a string consecutively: 1) base64 decoding, and 2) AES ECB decryption of strings."
 // "details": "This recipe removes all non-alphabet characters from the input string before decoding. Also, the values of key and Initialization Vector (IV) may need to be changed."
 // "chef": "Omid Mirzaei"
 
