@@ -1,0 +1,17 @@
+// "name": "Caesar Decryption"
+// "description": "This is a recipe for decrypting strings that are encrypted via Caesar algorithm."
+// "details": "The Caesar shift is 5 and may need to be changed. Also, the delimiter is space and may need to be changed."
+// "chef": "Omid Mirzaei"
+
+[
+  { "op": "To Charcode",
+    "args": ["Space", 10] },
+  { "op": "From Decimal",
+    "args": ["Space", false] },
+  { "op": "SUB",
+    "args": [{ "option": "Decimal", "string": "5" }] },
+  { "op": "To Decimal",
+    "args": ["Space", false] },
+  { "op": "From Decimal",
+    "args": ["Space", false] }
+]

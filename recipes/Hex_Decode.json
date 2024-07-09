@@ -1,0 +1,9 @@
+// "name": "Hex Decoding"
+// "description": "This is a recipe for converting a hexadecimal byte string to a raw string."
+// "details": "The delimiter is None and may need to be changed."
+// "chef": "Omid Mirzaei"
+
+[
+  { "op": "From Hex",
+    "args": ["None"] }
+]

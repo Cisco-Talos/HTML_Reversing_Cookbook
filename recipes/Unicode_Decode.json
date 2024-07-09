@@ -1,0 +1,9 @@
+// "name": "Unicode Decoding"
+// "description": "This is a recipe for converting unicode character codes to their equivalent characters."
+// "details": "The delimiter is Comma and may need to be changed. Also, the base value is 10 and may need to be changed."
+// "chef": "Omid Mirzaei"
+
+[
+  { "op": "From Charcode",
+    "args": ["Comma", 10] }
+]

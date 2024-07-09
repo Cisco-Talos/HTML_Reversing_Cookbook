@@ -1,0 +1,13 @@
+// "name": "Base64 Decoding and Integer Array to String Conversion and Base64 Decoding"
+// "description": "This is a recipe that applies the follow operations to a string consecutively: 1) base64 decoding, and 2) ordinal integer array to string conversion, and 3) base64 decoding."
+// "details": "This recipe removes all non-alphabet characters from the input string before decoding. The delimiter for the second operation is space and may need to be changed."
+// "chef": "Omid Mirzaei"
+
+[
+  { "op": "From Base64",
+    "args": ["A-Za-z0-9+/=", true, false] },
+  { "op": "From Decimal",
+    "args": ["Space", false] },
+  { "op": "From Base64",
+    "args": ["A-Za-z0-9+/=", true, false] }
+]

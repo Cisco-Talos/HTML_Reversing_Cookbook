@@ -1,0 +1,8 @@
+// "name": "HTML Entity Decoding"
+// "description": "This is a recipe for converting HTML entities to their equivalent characters."
+// "chef": "Omid Mirzaei"
+
+[
+  { "op": "From HTML Entity",
+    "args": [] }
+]
