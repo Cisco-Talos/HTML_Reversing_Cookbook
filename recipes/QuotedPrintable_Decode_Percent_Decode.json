@@ -1,5 +1,5 @@
 // "name": "QuotedPrintable Decoding and Percent Decoding"
-// "description": "This is a recipe that applies the follow operations to a string consecutively: 1) quoted printable decoding, and 2) percent decoding."
+// "description": "This is a recipe that applies the following operations to a string consecutively: 1) quoted printable decoding, and 2) percent decoding."
 // "chef": "Omid Mirzaei"
 
 [
